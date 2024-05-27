@@ -1,0 +1,19 @@
+﻿@startuml
+skinparam linetype ortho
+skinparam ConditionEndStyle hline
+skinparam ConditionStyle InsideDiamond
+skinparam DefaultTextAlignment center
+:Початок;
+
+if (**n** == 0) then (Так)
+    :Ніяк не обробляти аудіо]
+else (Ні)
+    if (**n** > 0) then (Так (Прискорити))
+        :На кожні **n** зразків брати їхнє \nсереднє арифметичне]
+    else (Ні (Заповільнити))
+        :Повторяти кожен зразок \n**n** разів]
+    endif
+endif
+
+:Кінець;
+@enduml
