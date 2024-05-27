@@ -49,7 +49,7 @@ namespace App
             // 
             fpsLabel.AutoSize = true;
             fpsLabel.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            fpsLabel.ForeColor = Color.Green;
+            fpsLabel.ForeColor = Color.Red;
             fpsLabel.Location = new Point(573, 0);
             fpsLabel.Name = "fpsLabel";
             fpsLabel.Size = new Size(25, 13);
@@ -58,7 +58,7 @@ namespace App
             // 
             // playButton
             // 
-            playButton.BackColor = Color.FromArgb(27, 36, 30);
+            playButton.BackColor = Color.FromArgb(11, 190, 94);
             playButton.Dock = DockStyle.Fill;
             playButton.Enabled = false;
             playButton.FlatAppearance.BorderSize = 0;
@@ -94,7 +94,7 @@ namespace App
             // 
             // tableLayoutPanel2
             // 
-            tableLayoutPanel2.BackColor = Color.FromArgb(27, 36, 30);
+            tableLayoutPanel2.BackColor   = Color.FromArgb(11, 190, 94);
             tableLayoutPanel2.ColumnCount = 6;
             tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
             tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 70F));
@@ -120,41 +120,41 @@ namespace App
             // 
             // button1
             // 
-            button1.BackColor = Color.FromArgb(27, 36, 30);
-            button1.Dock = DockStyle.Fill;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Segoe UI", 9F);
-            button1.ForeColor = SystemColors.ControlLight;
-            button1.Location = new Point(480, 0);
-            button1.Margin = new Padding(0);
-            button1.Name = "button1";
-            button1.Size = new Size(30, 38);
-            button1.TabIndex = 13;
-            button1.Text = "x.5";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            button1.BackColor                 =  Color.FromArgb(11, 190, 94);
+            button1.Dock                      =  DockStyle.Fill;
+            button1.FlatAppearance.BorderSize =  0;
+            button1.FlatStyle                 =  FlatStyle.Flat;
+            button1.Font                      =  new Font("Segoe UI", 9F);
+            button1.ForeColor                 =  SystemColors.ControlLight;
+            button1.Location                  =  new Point(480, 0);
+            button1.Margin                    =  new Padding(0);
+            button1.Name                      =  "button1";
+            button1.Size                      =  new Size(30, 38);
+            button1.TabIndex                  =  13;
+            button1.Text                      =  "x.5";
+            button1.UseVisualStyleBackColor   =  false;
+            button1.Click                     += button1_Click;
             // 
             // button2
             // 
-            button2.BackColor = Color.FromArgb(27, 36, 30);
-            button2.Dock = DockStyle.Fill;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Segoe UI", 9F);
-            button2.ForeColor = SystemColors.ControlLight;
-            button2.Location = new Point(510, 0);
-            button2.Margin = new Padding(0);
-            button2.Name = "button2";
-            button2.Size = new Size(30, 38);
-            button2.TabIndex = 16;
-            button2.Text = "x1";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
+            button2.BackColor                 =  Color.FromArgb(11, 190, 94);
+            button2.Dock                      =  DockStyle.Fill;
+            button2.FlatAppearance.BorderSize =  0;
+            button2.FlatStyle                 =  FlatStyle.Flat;
+            button2.Font                      =  new Font("Segoe UI", 9F);
+            button2.ForeColor                 =  SystemColors.ControlLight;
+            button2.Location                  =  new Point(510, 0);
+            button2.Margin                    =  new Padding(0);
+            button2.Name                      =  "button2";
+            button2.Size                      =  new Size(30, 38);
+            button2.TabIndex                  =  16;
+            button2.Text                      =  "x1";
+            button2.UseVisualStyleBackColor   =  false;
+            button2.Click                     += button2_Click;
             // 
             // button3
             // 
-            button3.BackColor = Color.FromArgb(27, 36, 30);
+            button3.BackColor = Color.FromArgb(11, 190, 94);
             button3.Dock = DockStyle.Fill;
             button3.FlatAppearance.BorderSize = 0;
             button3.FlatStyle = FlatStyle.Flat;
@@ -171,14 +171,14 @@ namespace App
             // 
             // timeline
             // 
-            timeline.BackColor = Color.FromArgb(27, 36, 30);
-            timeline.Dock = DockStyle.Fill;
-            timeline.Location = new Point(63, 3);
-            timeline.Name = "timeline";
-            timeline.Size = new Size(414, 32);
-            timeline.TabIndex = 18;
-            timeline.TickFrequency = 10;
-            timeline.Scroll += timeline_OnScroll;
+            timeline.BackColor     =  Color.FromArgb(11, 190, 94);
+            timeline.Dock          =  DockStyle.Fill;
+            timeline.Location      =  new Point(63, 3);
+            timeline.Name          =  "timeline";
+            timeline.Size          =  new Size(414, 32);
+            timeline.TabIndex      =  18;
+            timeline.TickFrequency =  10;
+            timeline.Scroll        += timeline_OnScroll;
             // 
             // frame
             // 
