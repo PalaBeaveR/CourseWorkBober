@@ -1,5 +1,3 @@
-using OpenCvSharp;
-using PlantUmlClassDiagramGenerator.Attributes;
 
 namespace App
 {

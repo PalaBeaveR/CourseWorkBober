@@ -33,12 +33,8 @@
   <ItemGroup>
     <PackageReference Include="FFMediaToolkit" Version="4.5.1" />
     <PackageReference Include="NAudio" Version="2.2.1" />
-    <PackageReference Include="OpenCvSharp4.Extensions" Version="4.9.0.20240103" />
-    <PackageReference Include="OpenCvSharp4.Windows" Version="4.9.0.20240103" />
     <PackageReference Include="OpenTK.WinForms" Version="4.0.0-pre.7" />
     <PackageReference Include="PlantUmlClassDiagramGenerator.Attributes" Version="1.3.0.1" />
-    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.4" />
-    <PackageReference Include="SoundTouch.Net.NAudioSupport" Version="2.3.2" />
   </ItemGroup>
 
   <ItemGroup>

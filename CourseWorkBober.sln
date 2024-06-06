@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App", "App\App.csproj", "{8A77A5B0-82B6-4C80-9274-6FECA40E4DBA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoPlayer", "VideoPlayer\VideoPlayer.csproj", "{D18C6EAA-39DB-4D9E-8FCF-5F682A69AD15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8A77A5B0-82B6-4C80-9274-6FECA40E4DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8A77A5B0-82B6-4C80-9274-6FECA40E4DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8A77A5B0-82B6-4C80-9274-6FECA40E4DBA}.Debug|x64.ActiveCfg = Debug|x64
-		{8A77A5B0-82B6-4C80-9274-6FECA40E4DBA}.Debug|x64.Build.0 = Debug|x64
-		{8A77A5B0-82B6-4C80-9274-6FECA40E4DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8A77A5B0-82B6-4C80-9274-6FECA40E4DBA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8A77A5B0-82B6-4C80-9274-6FECA40E4DBA}.Release|x64.ActiveCfg = Release|x64
-		{8A77A5B0-82B6-4C80-9274-6FECA40E4DBA}.Release|x64.Build.0 = Release|x64
+		{D18C6EAA-39DB-4D9E-8FCF-5F682A69AD15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D18C6EAA-39DB-4D9E-8FCF-5F682A69AD15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D18C6EAA-39DB-4D9E-8FCF-5F682A69AD15}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D18C6EAA-39DB-4D9E-8FCF-5F682A69AD15}.Debug|x64.Build.0 = Debug|Any CPU
+		{D18C6EAA-39DB-4D9E-8FCF-5F682A69AD15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D18C6EAA-39DB-4D9E-8FCF-5F682A69AD15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D18C6EAA-39DB-4D9E-8FCF-5F682A69AD15}.Release|x64.ActiveCfg = Release|Any CPU
+		{D18C6EAA-39DB-4D9E-8FCF-5F682A69AD15}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
